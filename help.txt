@@ -1,0 +1,5 @@
+--------COMMANDS--------
+!install <Jtool> - moves an already downloaded tool to their directories.
+!download/install <Jtool> - clones the base files, moves the appropriate files to their directories, and deletes the base files.
+--------TOOLS--------
+Jutil (jutil)

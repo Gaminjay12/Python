@@ -13,14 +13,16 @@ while True:
         import os
         os.system("sudo rm /usr/bin/jutil")
         os.system("sudo rm /etc/jutil.txt")
-    if user_input == "exit":
+    if user_input == "!exit":
         break
     if user_input == "!download/install jutil":
         print("Downloading Jutil")
         import os
-        os.system("git clone https://github.com/Gaminjay12/Python")
-        print("Installing Jutil...")
-        os.system("sudo mv Python/jutil/jutil.py /usr/bin/jutil")
-        os.system("sudo mv Python/jutil/jutil.txt /etc/jutil.txt")
-        os.system("rmdir Python")
-        print("Installed!")
+        os.system("git clone https://github.com/Gaminjay12/BaseFiles")
+        os.system("mv BaseFiles/Python/Jtools/jutil/jutil.py /usr/bin/jutil")
+        os.system("mv BaseFiles/Python/Jtools/jutil/jutil.txt /etc/jutil.txt")
+        os.system("rmdir -r BaseFiles")
+    if user_input == "help":
+        import os
+        os.system("vim -mR help.txt")
+        
