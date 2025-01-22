@@ -13,5 +13,5 @@ while True:
         break
     if user_input == "help":
         import os
-        os.system("nvim -mR /usr/local/share/utility.txt")
-    
+        os.system("vim -mR /etc/utility.txt")
+
