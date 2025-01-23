@@ -22,6 +22,7 @@ while True:
         os.system("sudo mv BaseFiles/Python/Jtools/jutil/jutil.py /usr/bin/jutil")
         os.system("sudo mv BaseFiles/Python/Jtools/jutil/jutil.txt /etc/jutil.txt")
         os.system("rm -rf BaseFiles/")
+        os.system("sudo chmod +x /usr/bin/jutil
     if user_input == "help":
         import os
         os.system("vim -mR help.txt")
