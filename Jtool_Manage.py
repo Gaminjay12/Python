@@ -19,9 +19,9 @@ while True:
         print("Downloading Jutil")
         import os
         os.system("git clone https://github.com/Gaminjay12/BaseFiles")
-        os.system("mv BaseFiles/Python/Jtools/jutil/jutil.py /usr/bin/jutil")
-        os.system("mv BaseFiles/Python/Jtools/jutil/jutil.txt /etc/jutil.txt")
-        os.system("rmdir -r BaseFiles")
+        os.system("sudo mv BaseFiles/Python/Jtools/jutil/jutil.py /usr/bin/jutil")
+        os.system("sudo mv BaseFiles/Python/Jtools/jutil/jutil.txt /etc/jutil.txt")
+        os.system("rm -rf BaseFiles/")
     if user_input == "help":
         import os
         os.system("vim -mR help.txt")
